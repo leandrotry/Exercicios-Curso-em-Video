@@ -1,0 +1,6 @@
+times = ('Gambit', 'NaVi', 'Heroic', 'G2', 'Astralis', 'Furia', 'Virtus.Pro', 'Big', 'Liquid', 'Vitality', 'Complexity', 'Spirit', 'MouseSports', 'NIP', 'Entropiq', 'ForZe', 'FunPlus', 'ExtraSalt', 'SKADE', 'OG')
+print(times)
+print(times[0:5])
+print(times[-4:])
+print(sorted(times))
+print('O time da Fúria está em {}º colocado'.format((times.index('Furia') + 1)))

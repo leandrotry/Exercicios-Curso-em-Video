@@ -1,0 +1,8 @@
+nome = input('digite seu nome completo: ').strip()
+print(nome.upper())
+print(nome.lower())
+junto = nome.replace(' ','')
+print('nome com espaço tem {} carácteres'.format(len(nome)))
+print('nome sem espaço tem {} carácteres'.format(len(junto)))
+primeiro = nome.split()
+print('o primeiro nome tem {} carácteres'.format(len(primeiro[0])))
